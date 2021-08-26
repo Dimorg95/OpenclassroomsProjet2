@@ -1,0 +1,38 @@
+body {
+  margin: 20px;
+  font-family: "Raleway", sans-serif;
+}
+/*Header*/
+header nav {
+  display: flex;
+  justify-content: space-between;
+
+  height: 100px;
+}
+
+nav img {
+  height: 45px;
+  margin: 40px 0px 0px 25px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav li {
+  margin: 25px 50px 0px 25px;
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+#hebergement {
+  color: #0065fc;
+}
+#s_inscrire {
+  color: #0065fc;
+  font-weight: 700;
+}
