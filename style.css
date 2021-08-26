@@ -1,5 +1,5 @@
 body {
-  margin: 20px;
+  margin: 50px;
   font-family: "Raleway", sans-serif;
 }
 /*Header*/
@@ -12,7 +12,7 @@ header nav {
 
 nav img {
   height: 45px;
-  margin: 40px 0px 0px 25px;
+  margin: 15px 0px 0px 1px;
 }
 
 nav ul {
@@ -20,7 +20,7 @@ nav ul {
   justify-content: space-around;
 }
 nav li {
-  margin: 25px 50px 0px 25px;
+  margin: 10px 50px 0px 25px;
   list-style-type: none;
 }
 nav a {
@@ -31,8 +31,18 @@ nav a {
 
 #hebergement {
   color: #0065fc;
+  font-weight: 400;
 }
 #s_inscrire {
   color: #0065fc;
-  font-weight: 700;
+  font-weight: 900;
+}
+/*Champ de recherche et preference*/
+
+h1 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+#titre {
+  margin-left: 12px;
 }
